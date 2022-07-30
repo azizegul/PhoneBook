@@ -20,6 +20,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Contact.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Contact.Api", "src\Contact\PhoneBook.Contact.Api\PhoneBook.Contact.Api.csproj", "{641E29BE-689D-499D-B2D5-E546EFE03202}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Report.Domain", "src\Report\PhoneBook.Report.Domain\PhoneBook.Report.Domain.csproj", "{26F59850-CF04-439E-9A37-FBD910644365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Report.Infrastructure", "src\Report\PhoneBook.Report.Infrastructure\PhoneBook.Report.Infrastructure.csproj", "{203917CB-B959-4B68-91BD-73AB33858DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Report.Application", "src\Report\PhoneBook.Report.Application\PhoneBook.Report.Application.csproj", "{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Report.Api", "src\Report\PhoneBook.Report.Api\PhoneBook.Report.Api.csproj", "{09D8EE42-3925-4428-8623-00C862EB6535}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,10 @@ Global
 		{9D74F921-D908-47A5-A2D3-A7082DF15191} = {9BDEC344-30D7-4023-ADCA-DF05B0A4FAA2}
 		{BE9D871E-9632-45E9-BAE1-121F0B83BC8C} = {9BDEC344-30D7-4023-ADCA-DF05B0A4FAA2}
 		{641E29BE-689D-499D-B2D5-E546EFE03202} = {9BDEC344-30D7-4023-ADCA-DF05B0A4FAA2}
+		{26F59850-CF04-439E-9A37-FBD910644365} = {DEDCE5E8-3229-49C9-B170-939A39B75128}
+		{203917CB-B959-4B68-91BD-73AB33858DA6} = {DEDCE5E8-3229-49C9-B170-939A39B75128}
+		{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB} = {DEDCE5E8-3229-49C9-B170-939A39B75128}
+		{09D8EE42-3925-4428-8623-00C862EB6535} = {DEDCE5E8-3229-49C9-B170-939A39B75128}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D448A625-A56D-41C7-875B-E7A7A255BA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,5 +63,21 @@ Global
 		{641E29BE-689D-499D-B2D5-E546EFE03202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641E29BE-689D-499D-B2D5-E546EFE03202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641E29BE-689D-499D-B2D5-E546EFE03202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F59850-CF04-439E-9A37-FBD910644365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F59850-CF04-439E-9A37-FBD910644365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F59850-CF04-439E-9A37-FBD910644365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F59850-CF04-439E-9A37-FBD910644365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203917CB-B959-4B68-91BD-73AB33858DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203917CB-B959-4B68-91BD-73AB33858DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203917CB-B959-4B68-91BD-73AB33858DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203917CB-B959-4B68-91BD-73AB33858DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE59522-7219-4E8E-9A3E-1C1799EB4BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D8EE42-3925-4428-8623-00C862EB6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D8EE42-3925-4428-8623-00C862EB6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D8EE42-3925-4428-8623-00C862EB6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D8EE42-3925-4428-8623-00C862EB6535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
