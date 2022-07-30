@@ -4,7 +4,9 @@ namespace PhoneBook.Contact.Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {
-    DbSet<Person> Persons { get; }
+    DbSet<Person> Persons { get; set; }
 
-    DbSet<Domain.Entities.Contact> Contacts { get; }
+    DbSet<Domain.Entities.Contact> Contacts { get; set; }
+
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

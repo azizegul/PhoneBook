@@ -1,3 +1,5 @@
+using PhoneBook.Contact.Api;
+using PhoneBook.Contact.Application;
 using PhoneBook.Contact.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApiServices();
+builder.Services.AddApplicationServices();
+
+
 
 var app = builder.Build();
 

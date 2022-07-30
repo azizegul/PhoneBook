@@ -11,9 +11,14 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
     }
 
-    public DbSet<Person> Persons { get; }
-    public DbSet<Domain.Entities.Contact> Contacts { get; }
+    public DbSet<Person> Persons { get; set; }
+    public DbSet<Domain.Entities.Contact> Contacts { get; set; }
  
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+    
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
