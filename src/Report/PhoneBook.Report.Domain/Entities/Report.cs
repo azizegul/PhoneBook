@@ -7,6 +7,5 @@ public class Report : BaseEntity
 {
     public DateTime RequestDate { get; set; }
     public ReportStatus Status { get; set; }
-
-    public virtual ICollection<ReportData> ReportDatas { get; set; }
+    public ReportData? Data { get; set; }
 }

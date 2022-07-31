@@ -1,6 +1,6 @@
-namespace PhoneBook.Report.Domain.Entities;
+namespace PhoneBook.Report.Application.Report.Queries.GetReportQuery;
 
-public class ReportData
+public class ReportDataDto
 {
     public string Location { get; set; }
     public int RegisteredPersonCount { get; set; }
