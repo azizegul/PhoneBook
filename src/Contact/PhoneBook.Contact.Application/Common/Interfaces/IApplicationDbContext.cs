@@ -4,7 +4,7 @@ namespace PhoneBook.Contact.Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {
-    DbSet<Person> Persons { get; set; }
+    DbSet<Domain.Entities.Person> Persons { get; set; }
 
     DbSet<Domain.Entities.Contact> Contacts { get; set; }
 

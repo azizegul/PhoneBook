@@ -23,9 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Contact\Queries" />
-      <Folder Include="Person\Commands" />
-      <Folder Include="Person\Queries" />
+      <Folder Include="Contact\Queries\GetContactsQuery" />
     </ItemGroup>
 
 </Project>
