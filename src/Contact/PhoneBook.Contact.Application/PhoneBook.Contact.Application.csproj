@@ -22,8 +22,4 @@
       <ProjectReference Include="..\PhoneBook.Contact.Domain\PhoneBook.Contact.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Contact\Queries\GetContactsQuery" />
-    </ItemGroup>
-
 </Project>

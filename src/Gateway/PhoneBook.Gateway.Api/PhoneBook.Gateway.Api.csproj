@@ -8,19 +8,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Ocelot" Version="18.0.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="Ocelot" Version="18.0.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.contact.json" />
-      <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.global.json" />
-      <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.person.json" />
-      <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.report.json" />
+        <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.contact.json"/>
+        <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.global.json"/>
+        <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.person.json"/>
+        <_ContentIncludedByDefault Remove="OcelotConfiguration\ocelot.report.json"/>
     </ItemGroup>
 
 </Project>

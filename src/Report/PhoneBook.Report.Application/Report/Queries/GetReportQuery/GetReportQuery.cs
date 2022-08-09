@@ -31,12 +31,12 @@ public class GetReportQueryHandler : IRequestHandler<GetReportQuery, ReportDto>
             Id = report.Id,
             RequestDate = report.RequestDate,
             Status = report.Status,
-            Data = report.Data is null ? null : new ReportDataDto
+            Data = report.Data?.Select(x=> new ReportDataDto
             {
-                Location = report.Data.Location,
-                RegisteredPersonCount = report.Data.RegisteredPersonCount,
-                RegisteredPersonPhoneCount = report.Data.RegisteredPersonPhoneCount
-            }
+                Location = x.Location,
+                RegisteredPersonCount = x.RegisteredPersonCount,
+                RegisteredPersonPhoneCount = x.RegisteredPersonPhoneCount
+            }).ToList()
         };
 
         return reportDto;

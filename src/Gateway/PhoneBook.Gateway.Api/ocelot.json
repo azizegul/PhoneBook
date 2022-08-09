@@ -36,7 +36,7 @@
         }
       ],
       "UpstreamPathTemplate": "/contact",
-      "UpstreamHttpMethod": ["Post" ]
+      "UpstreamHttpMethod": ["POST" ,"GET"]
     },
     {
       "DownstreamPathTemplate": "/api/contact/{id}",

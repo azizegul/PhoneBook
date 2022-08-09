@@ -8,5 +8,5 @@ public class ReportDto
     public DateTime RequestDate { get; set; }
     public ReportStatus Status { get; set; }
     public string StatusName => Status.ToString();
-    public ReportDataDto? Data { get; set; }
+    public IList<ReportDataDto>? Data { get; set; }
 }
